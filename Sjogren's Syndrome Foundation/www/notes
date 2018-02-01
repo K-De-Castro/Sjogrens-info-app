@@ -1,0 +1,10 @@
+General Info page links should follow the the following format:
+info.html?page="Page Title"
+
+info.html?page=""
+info.html?page="What is it?"
+info.html?page="symptoms"
+
+
+To get the funny O:
+&ouml;
