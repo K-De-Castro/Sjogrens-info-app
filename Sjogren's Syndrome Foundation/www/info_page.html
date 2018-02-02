@@ -9,16 +9,12 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<script>
-
-
-
-</script>
-
 </head>
 
-
 <body>
+    <script src="/js/java.js"></script>
+    <script src="/js/pdfjs-dist/build/pdf.js"></script>
+
     <div class="w3-top">
         <div class="w3-bar w3-top w3-left-align w3-large info_navbar">
             <a class="w3-bar-item w3-button w3-hide-large w3-hover-blue w3-large"</a>
@@ -27,5 +23,13 @@
             <a href="#" class="w3-bar-item w3-button w-right w3-hover-white">Home</a>
         </div>
     </div>
+
+    <script id="loader">
+        var id = sessionStorage.getItem("page_id");
+        var type = sessionStorage.getItem("page_type");
+        var url = type + "_docs/" + id + ".pdf";
+        PDFJS.workerSrc = "/js/pdfjs-dist/build/pdf.js";
+        PDFJS.getDocument(url).then(function(page){})
+    </script>
 </body>
 </html>

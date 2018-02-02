@@ -1,4 +1,4 @@
-function go_back() {
++function go_back() {
     window.history.back();
 }
 
