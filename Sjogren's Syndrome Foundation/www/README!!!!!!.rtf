@@ -1,0 +1,53 @@
+HOW CONTENT PAGE NAVIGATION WORKS:
+    BASICS:
+        -A content uses of a .html file as a template for all the pages of a specific type.
+        -The template will then load a .pdf file containing the page's specific content and display the page.
+        -Navigation takes advantage of html5's localStorage functionality to avoid needing to parse the url.
+            -It will use the session storage to avoid causing clutter and ensuring changes update properly.
+
+    CONTENT TYPES:
+        -Content pages are divided up by their type.
+        -Each type has a directory with an index in the form of a csv file.
+        -As of this file's creation, the possible content types are:
+            -info -> easy read informative pages about sjogrens.
+            -facts -> the SSF's fact sheets.
+            -survive -> survival guides and quality of life advice.
+
+    NAME SCHEME:
+        -The javascript requires file names to follow a specific format:
+            (type is the content type all lowercase)
+
+            HTML Template (www/):
+                type_page.html      (info_page.html)
+
+            Directory (www/):
+                type_docs           (info_docs)
+
+            Index (www/type_docs/):
+                type_index.csv      (info_index.csv)
+            
+            Content (www/type_docs/):
+                name.pdf            (symptoms.pdf)
+            
+    INDEX:
+        -The .csv file must be a COMMA delimited file. (that means using this thing -> , )
+        -Both linux(mac) and windows endline encoding will work.
+        -Each line corresponds to one page except the first, that is a header.
+            PAGE ID -> whatever you named the file minus the extension (somefile.pdf -> id = somefile)
+            PAGE TITLE -> whatever you want to show up in the nav bar as the title.
+
+    ADDING PAGES:
+        1. Create the content of the page and save it as a pdf.
+        2. Move your new page into its type directory.
+        3. Open the index file and add your file.
+
+    MENU PAGE:
+        -To actually link to a page the following in the button/href object:
+            (id = page_id/name, type = page_type)
+
+                onclick="goto_page(id, type)"
+
+                        or
+
+                Use the wrapper:
+                onclick="goto_type(id)"
