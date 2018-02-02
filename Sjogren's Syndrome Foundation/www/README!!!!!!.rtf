@@ -8,6 +8,7 @@ HOW CONTENT PAGE NAVIGATION WORKS:
     CONTENT TYPES:
         -Content pages are divided up by their type.
         -Each type has a directory with an index in the form of a csv file.
+            -this lets us easily change the page title and other stuff.
         -As of this file's creation, the possible content types are:
             -info -> easy read informative pages about sjogrens.
             -facts -> the SSF's fact sheets.
@@ -51,3 +52,15 @@ HOW CONTENT PAGE NAVIGATION WORKS:
 
                 Use the wrapper:
                 onclick="goto_type(id)"
+
+    WHAT ACTUALLY HAPPENS:
+        -index.html (the start page) loads all the indexes and stashes the info in the sessionStorage
+            -format key = typeid; value = csv string
+        -when navigating to a content page, the menu calls the goto_ function
+            -the goto function puts the id and type in storage and redirects to the proper template page.
+        -the template page retrieves the id and type from storage
+        -the template uses the id and type to fetch the content file
+        -at the same time, the template page uses the id to pull a csv string from storage
+            -parsing this string gives the template the page title and any other metadata
+            -currently is just the title
+        -the retrieved data is plugged into the html template and the page is displayed
