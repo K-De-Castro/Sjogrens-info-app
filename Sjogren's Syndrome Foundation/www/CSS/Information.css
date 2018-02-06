@@ -19,10 +19,10 @@
     /*border: 20px solid red;*/
     align-items: center;
     /*position: absolute;*/
-    position: fixed;
-    top: 30%;
-    right: 10%;
-    left: 10%;
+    /* position: fixed; */
+    margin-top: 10%;
+    margin-right: 8%;
+    margin-left: 10%;
 }
 
 /* Nav bar*/
@@ -37,7 +37,7 @@
 
 
 .info-title{
-    margin-top: 20%;
+    margin-top: 15%;
 }
 
 .info-title h1{
@@ -47,7 +47,7 @@
 
 .contact{
     text-align: center;
-    margin-top: 5%;
+    margin-top: 10%;
     margin-left: 3%;
 }
 .contact div{
