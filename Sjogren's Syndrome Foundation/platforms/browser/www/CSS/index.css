@@ -13,7 +13,7 @@
 }
 
 .toplogo {
-    margin-left: 20%;
+    margin-left: 24%;
     
 }
 
@@ -25,10 +25,10 @@
 }
 
 .menubutton {
-    width: 74px;
+    width: 65px;
     height: 74px;
     position:relative;
-    margin-left: 10%;
+    margin-left: 12%;
     float:left;
     
 }
@@ -56,8 +56,8 @@
     margin-right: auto;
     margin-left: auto;
     margin-top: 23%;
-    padding-left: 43%;
-    padding-right: 43%;
+    padding-left: 44%;
+    padding-right: 44%;
 }
 
 #aboutmenubutton {
