@@ -12,8 +12,8 @@
 </head>
 
 <body>
-    <script src="/js/java.js"></script>
-    <script src="/js/pdfjs-dist/build/pdf.js"></script>
+    <script src="js/java.js"></script>
+    <script src="js/pdfjs-dist/build/pdf.js"></script>
 
     <div class="w3-top">
         <div class="w3-bar w3-top w3-left-align w3-large info_navbar">
@@ -24,12 +24,40 @@
         </div>
     </div>
 
+    <canvas id="the-canvas" style="border:1px  solid black"></canvas>
+
     <script id="loader">
         var id = sessionStorage.getItem("page_id");
         var type = sessionStorage.getItem("page_type");
         var url = type + "_docs/" + id + ".pdf";
+
         PDFJS.workerSrc = "/js/pdfjs-dist/build/pdf.js";
-        PDFJS.getDocument(url).then(function(page){})
+        PDFJS.getDocument(url).then(function getPDF(pdf){
+            pdf.getPage(1).then(function loadPage(page) {
+                var scale = 1.5;
+                var viewport = page.getViewport(scale);
+
+                var canvas = document.getElementById('the-canvas');
+      var context = canvas.getContext('2d');
+      canvas.height = viewport.height;
+      canvas.width = viewport.width;
+      //
+      // Render PDF page into canvas context
+      //
+      var renderContext = {
+        canvasContext: context,
+        viewport: viewport
+      };
+      page.render(renderContext);
+
+            });
+        });
     </script>
+    <h2>Should load something below:</h2>
+    <pre id="code"></pre>
+<script>
+  document.getElementById('code').textContent =
+      document.getElementById('script').text;
+</script>
 </body>
 </html>

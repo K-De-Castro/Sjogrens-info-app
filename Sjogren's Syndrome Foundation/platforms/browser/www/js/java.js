@@ -16,7 +16,7 @@ function init_index(types){//load all the csv file data into local storage.
         for (i = 0; i < 3; i++){
             (function (i){
                 xhr[i] = new XMLHttpRequest();
-                url = types[i] + "_doc/" + types[i] + "_index.csv";
+                url = types[i] + "_docs/" + types[i] + "_index.csv";
                 xhr[i].open("GET", url, true);
                 xhr[i].onreadystatechange = function () {
                     if (xhr[i].readyState == 4 && xhr[i].status == 200) {
@@ -44,16 +44,10 @@ function goto_facts(id) {
 }
 
 function goto_survival(id) {
-    goto_page
+    goto_page(id, "survive");
 }
 
 function get_content(id, type) {
-    var xhr = new XMLHttpRequest();
-    url = types + "_doc/" + id + ".pdf";
-    xhr.open("GET", url, true);
-    xhr.onreadystatechange = function () {
-        if (xhr.readyState == 4 && xhr.status == 200) {
-            return xhr.responseText;
-        }
-    }
+    var url = type + "_docs/" + id + ".pdf";
+    PDFJS.workerSrc = 'pdfjs-dist/build/pdf.worker.js';
 }
