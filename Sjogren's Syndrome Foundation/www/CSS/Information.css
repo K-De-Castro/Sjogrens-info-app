@@ -1,11 +1,49 @@
-.button {
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 20px;
+.btn-group button {
+    /*background-color: #0ccce8; /* Green background */
+    /*border: 1px solid #004f82; /* Green border */
+    /*color: white; /* White text */
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
+    font-size: 150%;
+    align-content: center;
+    margin-top: 12%;
+    margin-bottom: 12%;
+    padding: 10px 24px; /* Some padding */
+    width: 100%;/* Set a width if needed */
+    display: block; /* Make the buttons appear below each other */
+    /*border-radius: 15%;*/
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0); 
+    -webkit-tap-highlight-color: transparent;
 }
+
+.btn-group{
+    /*border: 20px solid red;*/
+    align-items: center;
+    /*position: absolute;*/
+    position: fixed;
+    top: 20%;
+    right: 10%;
+    left: 10%;
+    
+}
+.info-title h1{
+    text-align: center;
+    /*font-size: 185%;*/
+}
+.contact div{
+    height: 100%
+}
+.contact h2{
+    font-size: 120%;
+    position: relative;
+    top: 1em;
+    text-align: center;
+}
+.contact h1{
+    font-size: 185%;
+    text-align: center;
+}
+.contact p{
+    font-size: 95%;
+    text-align: center;
+}
+
