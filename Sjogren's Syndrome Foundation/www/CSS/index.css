@@ -40,6 +40,12 @@
     margin-right: auto;
 }
 
+.toptext {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
 
 #tablefont {
     font-size: 11px;
@@ -47,9 +53,11 @@
 }
 
 #about {
-    margin-right: 36%;
-    margin-left: 36%;
-    margin-top: 5%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 25%;
+    padding-left: 43%;
+    padding-right: 43%;
 }
 
 #aboutmenubutton {
