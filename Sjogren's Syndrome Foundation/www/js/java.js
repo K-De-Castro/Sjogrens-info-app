@@ -10,7 +10,7 @@ function store_csv(data, type) {
     }
 }
 
-function init_index(types){
+function init_index(types){//load all the csv file data into local storage.
     (function(){
         var xhr = [];
         for (i = 0; i < 3; i++){
@@ -48,5 +48,12 @@ function goto_survival(id) {
 }
 
 function get_content(id, type) {
-    
+    var xhr = new XMLHttpRequest();
+    url = types + "_doc/" + id + ".pdf";
+    xhr.open("GET", url, true);
+    xhr.onreadystatechange = function () {
+        if (xhr.readyState == 4 && xhr.status == 200) {
+            return xhr.responseText;
+        }
+    }
 }
