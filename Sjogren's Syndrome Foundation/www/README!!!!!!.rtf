@@ -4,6 +4,8 @@ HOW CONTENT PAGE NAVIGATION WORKS:
         -The template will then load a .pdf file containing the page's specific content and display the page.
         -Navigation takes advantage of html5's localStorage functionality to avoid needing to parse the url.
             -It will use the session storage to avoid causing clutter and ensuring changes update properly.
+        -You need to link the javascript file all the html pages with:
+            <script src="/js/java.js"></script>
 
     CONTENT TYPES:
         -Content pages are divided up by their type.
@@ -43,6 +45,8 @@ HOW CONTENT PAGE NAVIGATION WORKS:
         3. Open the index file and add your file.
 
     MENU PAGE:
+        -You need to link in the javascript file with the line:
+            <script src="/js/java.js"></script>
         -To actually link to a page the following in the button/href object:
             (id = page_id/name, type = page_type)
 
