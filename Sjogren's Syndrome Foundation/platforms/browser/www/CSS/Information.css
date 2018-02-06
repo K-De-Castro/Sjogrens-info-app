@@ -20,7 +20,7 @@
     align-items: center;
     /*position: absolute;*/
     position: fixed;
-    top: 20%;
+    top: 30%;
     right: 10%;
     left: 10%;
 }
@@ -35,8 +35,9 @@
 }
 
 
+
 .info-title{
-    margin-top: 10%;
+    margin-top: 20%;
 }
 
 .info-title h1{
