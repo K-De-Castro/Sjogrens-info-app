@@ -8,21 +8,22 @@
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="CSS/Content.css">
 <script src="js/java.js"></script>
 <script src="js/pdfjs-dist/build/pdf.js"></script>
 </head>
 
 <body>
     <div class="w3-top">
-        <div class="w3-bar w3-top w3-left-align w3-large info_navbar">
-            <a class="w3-bar-item w3-button w3-hide-large w3-hover-blue w3-large"</a>
-            <a href="#" onclick="go_back()" class="w3-bar-item w3-button w3-left">Back</a>
-            <a href="#" class="w3-bar-item w3-button w3-center w3-hover-white">Page Name</a>
-            <a href="#" class="w3-bar-item w3-button w-right w3-hover-white">Home</a>
+        <div class="w3-bar w3-top w3-large info_navbar">
+            <a class="w3-bar-item w3-button w3-hide-large w3-large"></a>
+            <a onclick="go_back()" class="w3-bar-item w3-button w3-left">Back</a>
+            <a class="w3-bar-item w3-button w3-center">Page Name</a>
+            <a href="index.html" class="w3-bar-item w3-button w3-right">Home</a>
         </div>
     </div>
 
-    <canvas id="the-canvas"></canvas>
+    <canvas id="the-canvas" class="the-canvas fill_screen"></canvas>
 
     <script id="script">
         var url = 'survive_docs/MuscleandJointPain.pdf';
@@ -32,7 +33,7 @@
         PDFJS.getDocument(url).then(function getPdfHelloWorld(pdf) {
    
           pdf.getPage(1).then(function getPageHelloWorld(page) {
-            var scale = 1.5;
+            var scale = 1   ;
             var viewport = page.getViewport(scale);
 
             var canvas = document.getElementById('the-canvas');
