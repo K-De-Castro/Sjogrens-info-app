@@ -7,15 +7,11 @@
 
 .logohalf {
     width: 90%;
-    height:25%;
+    height:15%;
     margin:auto;
     position:relative;
 }
 
-.toplogo {
-    margin-left: 24%;
-    
-}
 
 .half {
     width: 100%;
@@ -32,6 +28,11 @@
 }
 
 .menubutton img{
+    display: block;
+    margin: 0 auto;
+}
+
+.logohalf img {
     display: block;
     margin: 0 auto;
 }
