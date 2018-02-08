@@ -75,9 +75,8 @@ html, body{
 }
 
 #aboutmenubutton {
-    position: relative;
-    margin-top: 5%;
-    margin-right: auto;
+    margin: 0 5%;
+    float:left;
 }
 
 #abouttext {
@@ -103,8 +102,6 @@ html, body{
     font-size:7px;
     margin-bottom: 5%;
 }
-
-
 
 
 
