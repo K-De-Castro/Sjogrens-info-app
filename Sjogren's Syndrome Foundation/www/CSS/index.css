@@ -1,31 +1,34 @@
+
+
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+
+}
+
 .maincontainer {
-    width:90%;
+    width:100%;
     height:100%;
     margin: auto;
-    margin-top: 20%; 
 }
 
 .logohalf {
-    width: 90%;
-    height:15%;
-    margin:auto;
+    width: 100%;
+    height:27%;
+    padding-top: 15%;
+    margin-bottom: 20%;
     position:relative;
 }
 
 
 .half {
     width: 100%;
-    height:100px;
+    height:15%;
     margin:auto;
     position:relative;
 }
 
-.spacer {
-    width: 100%;
-    height:35px;
-    margin:auto;
-    position:relative;
-}
 
 .menubutton {
     width: 25%;
