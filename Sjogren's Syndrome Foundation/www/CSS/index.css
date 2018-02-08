@@ -20,6 +20,13 @@
     position:relative;
 }
 
+.spacer {
+    width: 100%;
+    height:50px;
+    margin:auto;
+    position:relative;
+}
+
 .menubutton {
     width: 25%;
     height: 100%;
@@ -93,12 +100,6 @@
     font-size:7px;
     margin-bottom: 5%;
 }
-
-
-
-
-
-
 
 
 
