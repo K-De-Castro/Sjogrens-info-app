@@ -76,6 +76,11 @@
     float:left;
 }
 
+#readingbuttons {
+    display: block;
+    margin: 2% auto;
+}
+
 #abouttext {
     text-align: center;
     font-size: 11px;
