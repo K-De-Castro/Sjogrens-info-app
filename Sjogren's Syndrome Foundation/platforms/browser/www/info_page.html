@@ -4,24 +4,17 @@
 <title>W3.CSS Template</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="CSS/Content.css">
 <script src="js/java.js"></script>
 <script src="js/pdfjs-dist/build/pdf.js"></script>
 </head>
 
 <body>
-    <div class="w3-top">
-        <div class="w3-bar w3-top w3-large info_navbar">
-            <a class="w3-bar-item w3-button w3-hide-large w3-large"></a>
-            <a onclick="go_back()" class="w3-bar-item w3-button w3-left">Back</a>
-            <a class="w3-bar-item w3-button w3-center">Page Name</a>
-            <a href="index.html" class="w3-bar-item w3-button w3-right">Home</a>
-        </div>
-    </div>
+  <ul class="nav_color" >
+    <li class="nav_obj nav_left" onclick="go_back()">Back</li>
+    <li class="nav_obj">Page Title</li>
+    <li class="nav_obj nav_right" onclick="go_home()">Home</li>
+  </ul>
 
     <canvas id="the-canvas" class="the-canvas fill_screen"></canvas>
 

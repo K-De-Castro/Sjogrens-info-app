@@ -2,6 +2,9 @@ function go_back() {
     window.history.back();
 }
 
+function go_home() {
+}
+
 function store_csv(data, type) {
     var lines = data.split(/\r\n|\n/);
     for (i = 0; i < lines.length; i++) {

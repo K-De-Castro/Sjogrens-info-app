@@ -1,11 +1,29 @@
-.info_text_theme{
-    background: #004f82;
-    color: rgb(219, 209, 183);
+.nav_colored{
+    background-color: #009688;
+    color: white;
 }
 
-.info_navbar{
-    background-color: #009688;
-    color: rgb(0, 0, 0);
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+}
+
+.nav_obj{
+    display: block;
+    padding: 8px 12px;
+    text-decoration: none;
+}
+
+.nav_right{
+    float: right;
+    border-left: 1px solid white;
+}
+
+.nav_left{
+    float: left;
+    border-right: 1px solid white;
 }
 
 .fill_screen{
