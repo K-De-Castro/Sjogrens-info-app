@@ -33,9 +33,11 @@ function init_index(types){//load all the csv file data into local storage.
 }
 
 function goto_page(id, type) {
-    sessionStorage.page_type = type;
-    sessionStorage.page_id = id;
-    window.location.assign(id + "_page.html");
+    setItem(page_type, type);
+    setItem(key, value);
+    //sessionStorage.page_type = type;
+    //sessionStorage.page_id = id;
+    window.location.assign(type + "_page.html");
 }
 
 function goto_info(id) {
@@ -46,7 +48,7 @@ function goto_facts(id) {
     goto_page(id, "fact");
 }
 
-function goto_survival(id) {
+function goto_survive(id) {
     goto_page(id, "survive");
 }
 
