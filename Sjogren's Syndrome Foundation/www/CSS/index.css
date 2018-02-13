@@ -25,6 +25,8 @@ html, body{
     width:90%;
     margin-top: 20%;
     padding-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .textbottom {
@@ -88,8 +90,13 @@ html, body{
 
 #tablefont {
     font-size: 11px;
-    
 }
+
+.abouttext {
+    text-align: center;
+    font-size: 11px;
+}
+
 
 #about {
     display: block;
@@ -107,11 +114,6 @@ html, body{
 #readingbuttons {
     display: block;
     margin: 5% auto;
-}
-
-#abouttext {
-    text-align: center;
-    font-size: 11px;
 }
 
 #info p{
