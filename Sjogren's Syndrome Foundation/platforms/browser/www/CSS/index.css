@@ -23,8 +23,8 @@ html, body{
 
 .textcontainer {
     width:90%;
-    margin-top: 20%;
-    padding-top: 10%;
+    margin-top: auto;
+    padding-top: 13%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -45,6 +45,20 @@ html, body{
     position:relative;
 }
 
+.imagetop {
+    width: 100%;
+    height:27%;
+    padding-top: 15%;
+    margin-bottom: 20%;
+    position:relative;
+}
+
+.imagetop img {
+    height: auto;
+    width: 100%;
+    
+}
+
 
 .half {
     width:100%;
@@ -55,7 +69,7 @@ html, body{
 
 .spacer {
     width: 100%;
-    height:10%;
+    height:3%;
     margin:auto;
     position:relative;
 
