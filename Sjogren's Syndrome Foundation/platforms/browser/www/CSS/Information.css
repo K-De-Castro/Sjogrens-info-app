@@ -22,13 +22,16 @@ html, body{
 }
 
 .btn-group{
+    height: 60%;
     /*border: 20px solid red;*/
     align-items: center;
     /*position: absolute;*/
     /* position: fixed; */
-    margin-top: 10%;
+    margin-top: 5%;
     margin-right: 8%;
     margin-left: 8%;
+    /* border: black;
+    border-style: solid; */
 }
 
 /* Nav bar*/
@@ -49,12 +52,19 @@ html, body{
 
 
 .info-title{
-    margin-top: 15%;
+    height: 20%;
+    margin-top: 10%;
+    /* border: black;
+    border-style: solid; */
 }
 
 .info-title h1{
     text-align: center;
     /*font-size: 185%;*/
+}
+
+.infomenu{
+    height: 100%;
 }
 
 .contact{
