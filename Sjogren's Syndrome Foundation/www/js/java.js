@@ -46,7 +46,7 @@ function goto_facts(id) {
     goto_page(id, "fact");
 }
 
-function goto_survival(id) {
+function goto_survive(id) {
     goto_page(id, "survive");
 }
 
