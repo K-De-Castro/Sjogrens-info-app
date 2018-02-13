@@ -1,3 +1,9 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
 .btn-group button {
     /*background-color: #0ccce8; /* Green background */
     /*border: 1px solid #004f82; /* Green border */
@@ -16,33 +22,49 @@
 }
 
 .btn-group{
+    height: 60%;
     /*border: 20px solid red;*/
     align-items: center;
     /*position: absolute;*/
     /* position: fixed; */
-    margin-top: 10%;
+    margin-top: 5%;
     margin-right: 8%;
     margin-left: 8%;
+    /* border: black;
+    border-style: solid; */
 }
 
 /* Nav bar*/
 .w3-top{
     width: 100%;
-    height: 10%;
-    margin-bottom: 10%;
+    height: 7%;
     position: relative;
-    left: -8% 
+    /* left: -8%;  */
+    background-color: #39ada1;
+    color: rgb(0, 0, 0);
+}
+
+.w3-bar-item{
+    position: relative;
+    left: -8%;
 }
 
 
 
 .info-title{
-    margin-top: 15%;
+    height: 20%;
+    margin-top: 10%;
+    /* border: black;
+    border-style: solid; */
 }
 
 .info-title h1{
     text-align: center;
     /*font-size: 185%;*/
+}
+
+.infomenu{
+    height: 100%;
 }
 
 .contact{
@@ -67,6 +89,5 @@
     font-size: 95%;
     text-align: center;
 }
-
 
 

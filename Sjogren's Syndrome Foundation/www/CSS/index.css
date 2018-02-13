@@ -8,9 +8,48 @@ html, body{
 }
 
 .maincontainer {
-    width:100%;
-    height:100%;
+    width:80%;
+    height:90%;
     margin: auto;
+}
+
+.btn-about{
+    width:100%;
+    height:15%;
+    margin:auto;
+    position:relative;
+    padding-top: 10%;
+}
+
+.textcontainer {
+    width:90%;
+    margin-top: auto;
+    padding-top: 13%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-text{
+    width:100%;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-buttons{
+    width: 100%;
+    height: auto;
+    align-content: center;
+}
+
+.textbottom {
+    width:100%;
+    height: 10%;
+    padding-top: 5%
+    margin-top: 5%;
+    margin-left:auto;
+    margin-right: auto;
+    font-size: 12px;
 }
 
 .logohalf {
@@ -21,12 +60,34 @@ html, body{
     position:relative;
 }
 
+.imagetop {
+    width: 100%;
+    height:27%;
+    padding-top: 15%;
+    margin-bottom: 20%;
+    position:relative;
+}
+
+.imagetop img {
+    height: auto;
+    width: 100%;
+    
+}
+
 
 .half {
-    width: 100%;
+    width:100%;
     height:15%;
     margin:auto;
     position:relative;
+}
+
+.spacer {
+    width: 100%;
+    height:3%;
+    margin:auto;
+    position:relative;
+
 }
 
 
@@ -40,19 +101,18 @@ html, body{
 .menubutton img{
     display: block;
     margin: 0 auto;
+    height: auto;
+    width: 100%;
 }
 
 .logohalf img {
     display: block;
     margin: 0 auto;
+    height: auto;
+    width: 100%;
 }
 
-.textbottom {
-    width:90%;
-    margin-bottom:auto;
-    margin-left:auto;
-    margin-right: auto;
-}
+
 
 .toptext {
     text-align: center;
@@ -61,27 +121,38 @@ html, body{
     
 }
 
-#tablefont {
-    font-size: 11px;
-    
+
+.zipcode {
+    width:25%;
 }
 
+#tablefont {
+    font-size: 11px;
+}
+
+.abouttext {
+    text-align: center;
+    font-size: 11px;
+}
+
+
 #about {
-    margin-right: auto;
-    margin-left: auto;
+    display: block;
+    margin: 0 auto;
     margin-top: 12%;
     padding-left: 44%;
     padding-right: 44%;
 }
 
 #aboutmenubutton {
-    margin: 0 5%;
-    float:left;
+    margin: 0 3%;
+    /* float:left; */
+    font-size: 12px;
 }
 
-#abouttext {
-    text-align: center;
-    font-size: 11px;
+#readingbuttons {
+    display: block;
+    margin: 5% auto;
 }
 
 #info p{
