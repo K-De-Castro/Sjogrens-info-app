@@ -142,7 +142,7 @@ html, body{
 
 #aboutmenubutton {
     margin: 0 3%;
-    float:left;
+    /* float:left; */
     font-size: 12px;
 }
 
