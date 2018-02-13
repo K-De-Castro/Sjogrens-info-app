@@ -101,11 +101,15 @@ html, body{
 .menubutton img{
     display: block;
     margin: 0 auto;
+    height: auto;
+    width: 100%;
 }
 
 .logohalf img {
     display: block;
     margin: 0 auto;
+    height: auto;
+    width: 100%;
 }
 
 
