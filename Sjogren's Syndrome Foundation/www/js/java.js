@@ -33,8 +33,8 @@ function init_index(types){//load all the csv file data into local storage.
 }
 
 function goto_page(id, type) {
-    setItem(page_type, type);
-    setItem(key, value);
+    sessionStorage.setItem(page_type, type);
+    sessionStorage.setItem(key, value);
     //sessionStorage.page_type = type;
     //sessionStorage.page_id = id;
     window.location.assign(type + "_page.html");
