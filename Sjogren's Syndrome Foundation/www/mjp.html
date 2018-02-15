@@ -10,12 +10,13 @@
 </head>
 
 <body>
-    <ul class="nav_colored" >
+    <div>
+      <ul class="nav_colored" >
       <li class="nav_obj nav_left" onclick="go_back()">Back</li>
       <li class="nav_obj nav_left">Muscle and Joint Pain</li>
       <li class="nav_obj nav_right" onclick="go_home()">Home</li>
     </ul>
-
+</div>
     <canvas id="the-canvas" class="the-canvas fill_screen"></canvas>
 
     <script id="script">
@@ -31,7 +32,7 @@
 
             var canvas = document.getElementById('the-canvas');
             var context = canvas.getContext('2d');
-            canvas.height = viewport.height - (viewport.height * 0.07);
+            canvas.height = viewport.height;
             canvas.width = viewport.width;
 
             var renderContext = {
