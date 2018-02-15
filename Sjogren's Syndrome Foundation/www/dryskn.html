@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="CSS/Content.css">
+<script src="js/java.js"></script>
+<script src="js/pdfjs-dist/build/pdf.js"></script>
+</head>
+
+<body>
+    <ul class="nav_colored" >
+      <li class="nav_obj nav_left" onclick="go_back()">Back</li>
+      <li class="nav_obj nav_left">Page Title</li>
+      <li class="nav_obj nav_right" onclick="go_home()">Home</li>
+    </ul>
+
+    <canvas id="the-canvas" class="the-canvas fill_screen"></canvas>
+
+    <script id="script">
+        var url = 'survive_docs/dry_skin.pdf';
+  
+        PDFJS.workerSrc = 'js/pdfjs-dist/build/pdf.worker.js';
+ 
+        PDFJS.getDocument(url).then(function getPdfHelloWorld(pdf) {
+   
+          pdf.getPage(1).then(function getPageHelloWorld(page) {
+            var scale = 1   ;
+            var viewport = page.getViewport(scale);
+
+            var canvas = document.getElementById('the-canvas');
+            var context = canvas.getContext('2d');
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            var renderContext = {
+              canvasContext: context,
+              viewport: viewport
+            };
+            page.render(renderContext);
+          });
+        });
+      </script>      
+</body>
+</html>
