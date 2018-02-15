@@ -40,6 +40,7 @@ html, body{
     width: 100%;
     height: auto;
     align-content: center;
+    margin-left: 4%
 }
 
 .textbottom {
@@ -98,6 +99,7 @@ html, body{
     float:left;
 }
 
+
 .menubutton img{
     display: block;
     margin: 0 auto;
@@ -132,7 +134,7 @@ html, body{
 
 .abouttext {
     text-align: center;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 
@@ -157,7 +159,7 @@ html, body{
 
 #info p{
     text-align:center;
-    font-size: 10px;
+    font-size: 14px;
     position:inherit;
 }
 
