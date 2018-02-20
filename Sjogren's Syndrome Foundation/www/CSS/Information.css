@@ -40,14 +40,10 @@ html, body{
     height: 7%;
     position: relative;
     /* left: -8%;  */
-    background-color: #39ada1;
+    background-color: #1796ff;
     color: rgb(0, 0, 0);
 }
 
-.w3-bar-item{
-    position: relative;
-    left: -8%;
-}
 
 
 
