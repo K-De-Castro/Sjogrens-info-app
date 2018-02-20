@@ -35,12 +35,20 @@ html, body{
     margin-right: auto;
 }
 
-.about-buttons{
+.button-container {
     width: 100%;
-    height: auto;
-    align-content: center;
-    margin-left: 4%
+    height: 10%;
+    margin: auto auto;
+    text-align: center;
+    
 }
+
+.about-buttons{
+    width: auto;
+    height: auto;
+    display: inline-block;
+}
+
 
 .textbottom {
     width:100%;
@@ -129,10 +137,6 @@ html, body{
 }
 
 
-.zipcode {
-    width:25%;
-}
-
 #tablefont {
     font-size: 13px;
 }
@@ -152,14 +156,7 @@ html, body{
 }
 
 #aboutmenubutton {
-    margin: 0 3%;
-    /* float:left; */
-    font-size: 12px;
-}
-
-#readingbuttons {
-    display: block;
-    margin: 5% auto;
+    font-size: 14px;
 }
 
 #info p{
@@ -178,10 +175,18 @@ html, body{
 #copyright {
     text-align:center;
     font-size:7px;
-    margin-bottom: 5%;
+    margin-bottom: auto;
 }
 
 #backbutton img{
+    width: 80%;
+    height: 100%;
+    margin: auto 2%;
+    float:left;
+    
+}
+
+#homebutton img{
     width: 80%;
     height: 100%;
     margin: auto 2%;
