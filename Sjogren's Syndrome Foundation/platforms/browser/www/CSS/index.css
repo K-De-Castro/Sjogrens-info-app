@@ -36,12 +36,20 @@ html, body{
     margin-right: auto;
 }
 
-.about-buttons{
-    width: 100%;
-    height: auto;
-    align-content: center;
-    margin-left: 4%
+.about-container {
+    width:90%;
+    height: 10%;
+    margin: auto auto;
+    text-align: center;
+    
 }
+
+.about-buttons{
+    width: auto;
+    height: auto;
+    display: inline-block;
+}
+
 
 .textbottom {
     width:100%;
@@ -147,9 +155,9 @@ html, body{
 }
 
 #aboutmenubutton {
-    margin: 0 3%;
-    /* float:left; */
+    margin: auto auto;
     font-size: 12px;
+    display: block;
 }
 
 #readingbuttons {
@@ -173,7 +181,7 @@ html, body{
 #copyright {
     text-align:center;
     font-size:7px;
-    margin-bottom: 5%;
+    margin-bottom: auto;
 }
 
 #backbutton img{
