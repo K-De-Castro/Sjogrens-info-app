@@ -137,7 +137,7 @@ html, body{
 }
 
 .abouttext {
-    text-align: center;
+    text-align: left;
     font-size: 15px;
 }
 
@@ -181,10 +181,11 @@ html, body{
     
 }
 
+
 #homebutton img{
-    width: 80%;
-    height: 100%;
-    margin: auto 2%;
+    width: 60%;
+    height: 80%;
+    margin: 3% 40%;
     float:left;
     
 }
