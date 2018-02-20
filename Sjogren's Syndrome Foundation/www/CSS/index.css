@@ -36,8 +36,8 @@ html, body{
     margin-right: auto;
 }
 
-.about-container {
-    width:90%;
+.button-container {
+    width: 100%;
     height: 10%;
     margin: auto auto;
     text-align: center;
@@ -132,10 +132,6 @@ html, body{
 }
 
 
-.zipcode {
-    width:25%;
-}
-
 #tablefont {
     font-size: 13px;
 }
@@ -155,14 +151,7 @@ html, body{
 }
 
 #aboutmenubutton {
-    margin: auto auto;
-    font-size: 12px;
-    display: block;
-}
-
-#readingbuttons {
-    display: block;
-    margin: 5% auto;
+    font-size: 14px;
 }
 
 #info p{
