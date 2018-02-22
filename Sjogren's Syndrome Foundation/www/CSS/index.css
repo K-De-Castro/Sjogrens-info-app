@@ -131,25 +131,29 @@ html, body{
 
 
 .toptext {
+    font-family: sans-serif;
     text-align: center;
-    font-size: 24px;
+    font-size: 26px;
     font-weight: bold;
     
 }
 
 
 #tablefont {
-    font-size: 13px;
+    font-family: sans-serif
+    font-size: 15px;
 }
 
 .abouttext {
+    font-family: sans-serif;
     text-align: left;
-    font-size: 15px;
+    font-size: 17px;
 }
 
 .contacttext {
+    font-family: sans-serif;
     text-align: center;
-    font-size: 15px;
+    font-size: 17px;
     
 }
 
