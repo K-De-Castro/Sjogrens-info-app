@@ -12,7 +12,7 @@
                 ""
                 ]
             ],
-            "suggests" : "Suggested reading: The Memory Bible, by Gary Small, MD, Director of the UCLA Center on Aging, available from the Sjögren’s Syndrome Foundation.",
+            "suggests" : "Suggested reading: The Memory Bible, by Gary Small, MD, Director of the UCLA Center on Aging, available from the Sjögren’s Syndrome Foundation."
         },{
             "title" : "Brain Fog",
             "credit" : "The SSF thanks Elaine Alexander, MD, PhD, clinician and researcher in Sjögren’s syndrome, biomedical consultant and Chair-Elect of the SSF Medical and Scientific Advisory Board, San Diego, California, for authoring this Patient Education Sheet.",
@@ -46,6 +46,19 @@
                 "Recent scientific data show that longevity is associated with the successful management of chronic diseases, such as Sjögren’s syndrome, not the absence of any disease!"
                 ]
             ]
+        },{
+            "title" : "",
+            "credit" : "",
+            "intro" : "",
+            "list_headers" : [
+                ""
+            ],
+            "lists" : [
+                ["",
+                ""
+                ]
+            ],
+            "suggests" : "Suggested reading: The Memory Bible, by Gary Small, MD, Director of the UCLA Center on Aging, available from the Sjögren’s Syndrome Foundation."
         }
     ]
 }
