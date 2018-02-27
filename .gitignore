@@ -35,3 +35,5 @@ sysinfo.txt
 *.svg
 *.svg
 *.properties
+
+\.DS_Store
