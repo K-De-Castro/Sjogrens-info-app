@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 /*
        Licensed to the Apache Software Foundation (ASF) under one
        or more contributor license agreements.  See the NOTICE file
@@ -19,7 +17,14 @@
        under the License.
 */
 
-// Coho updates this line:
-var VERSION = "4.1.0";
 
-console.log(VERSION);
+package org.apache.cordova.file;
+
+@SuppressWarnings("serial")
+public class TypeMismatchException extends Exception {
+
+    public TypeMismatchException(String message) {
+        super(message);
+    }
+
+}
