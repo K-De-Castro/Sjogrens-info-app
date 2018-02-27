@@ -1,7 +1,8 @@
 var xenourls = {
     facebook: 'https://www.facebook.com/SjogrensSyndromeFoundation/',
-    homepage: '',
-    twitter: ''
+    homepage: 'https://www.sjogrens.org/',
+    twitter: 'https://twitter.com/SjogrensOrg',
+    pintrest: 'https://www.pinterest.com/sjogrensorg/'
 };
 
 //opens url in eternal browser. (The system's native one)
