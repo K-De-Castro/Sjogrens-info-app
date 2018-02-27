@@ -1,6 +1,7 @@
-var xeno_urls = {
+var xenourls = {
     facebook: 'https://www.facebook.com/SjogrensSyndromeFoundation/',
-    homepage: ''
+    homepage: '',
+    twitter: ''
 };
 
 //opens url in eternal browser. (The system's native one)
