@@ -12,7 +12,7 @@
                 ""
                 ]
             ],
-            "suggests" : "Suggested reading: The Memory Bible, by Gary Small, MD, Director of the UCLA Center on Aging, available from the Sjögren’s Syndrome Foundation.",
+            "suggests" : "Suggested reading: The Memory Bible, by Gary Small, MD, Director of the UCLA Center on Aging, available from the Sjögren’s Syndrome Foundation."
         },{
             "title" : "Brain Fog",
             "credit" : "The SSF thanks Elaine Alexander, MD, PhD, clinician and researcher in Sjögren’s syndrome, biomedical consultant and Chair-Elect of the SSF Medical and Scientific Advisory Board, San Diego, California, for authoring this Patient Education Sheet.",
@@ -46,6 +46,26 @@
                 "Recent scientific data show that longevity is associated with the successful management of chronic diseases, such as Sjögren’s syndrome, not the absence of any disease!"
                 ]
             ]
+        },{
+            "title" : "Tips for Brittle Nails",
+            "credit" : "The SSF thanks Adam I. Rubin, MD for authoring this Patient Education Sheet. Dr. Rubin is Director of the Nail Practice and Assistant Professor of Dermatology, Perleman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania.",
+            "intro" : "Brittle nails are characterized by hardness, peeling, crumbling, fissures, excess longitudinal ridges or lack of flexibility of the finger and toe nails. This sometimes causes pain and interferes with normal daily activities. Although no clear association between Sjogren's and nail disorders has been reported, Sjögren's patients frequently complain of this problem. Many different dermatologic conditions including some autoimmune disorders, infections, dryness and certain medications can affect the nails.",
+            "list_headers" : [
+                "Here’s what you can do to help:"],
+            "lists" : [
+                ["Keep the nails short. This prevents the nails from catching on things or acting as a lever and causing further damage.",
+                "Avoid biting the nails, pulling on them or other tasks that cause repeated trauma.",
+                "Avoid excess contact with water or chemicals (including nail polish remover) which can cause dryness.",
+                "Protect the nails when performing wet work by using rubber gloves and cotton glove liners.",
+                "Avoid excess hand washing and exposure of nails to water.",
+                "Use moisturizer on your nails multiple times per day and reapply the moisturizer after your hands come in contact with water. You can use the same moisturizer used for your dry skin.",
+                "Steer clear of cosmetic products such as artificial nails and nail wraps which can cause damage.",
+                "Avoid nail polish and hardeners. However, if used, leave on as long as possible to help retain moisture. After removing polish, moisturize the nails and give them a break from cosmetic products before re-application.",
+                "If your dermatologist approves, try a course of biotin if you have brittle nails.",
+                "If you're diagnosed with a fungal infection of your nails, your dermatologist can discuss a variety of treatment options which are available."
+                ]
+            ],
+            "suggests" : "Suggested reading: The Memory Bible, by Gary Small, MD, Director of the UCLA Center on Aging, available from the Sjögren’s Syndrome Foundation."
         }
     ]
 }
