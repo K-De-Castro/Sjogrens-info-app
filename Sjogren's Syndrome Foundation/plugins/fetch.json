@@ -1,0 +1,10 @@
+{
+    "cordova-plugin-print-pdf": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-print-pdf"
+        },
+        "is_top_level": true,
+        "variables": {}
+    }
+}
