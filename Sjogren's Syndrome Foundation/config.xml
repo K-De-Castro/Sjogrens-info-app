@@ -9,5 +9,5 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
-    <plugin name="cordova-plugin-print-pdf" source="npm">
+    <plugin name="cordova-plugin-print-pdf" source="npm" />
 </widget>
