@@ -2,7 +2,9 @@ var xenourls = {
     facebook: 'https://www.facebook.com/SjogrensSyndromeFoundation/',
     homepage: 'https://www.sjogrens.org/',
     twitter: 'https://twitter.com/SjogrensOrg',
-    pintrest: 'https://www.pinterest.com/sjogrensorg/'
+    pintrest: 'https://www.pinterest.com/sjogrensorg/',
+    donate: 'https://www.sjogrens.org/home/get-connected/donate',
+    member: 'https://www.sjogrens.org/home/get-connected/become-a-member'
 };
 
 //opens url in eternal browser. (The system's native one)
