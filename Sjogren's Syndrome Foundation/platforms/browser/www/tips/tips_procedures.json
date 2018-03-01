@@ -1,0 +1,41 @@
+{
+    "files" : [
+        {
+            "title" : "page's title",
+            "credit" : "thing saying 'ssf thanks ___ for help writing this.",
+            "intro" : "paragraph before bullet list",
+            "list_headers" : [
+                "the title of the bullet list",
+                "put title of second list here",
+                "third list title",
+                "ect."
+            ],
+            "lists" : [
+                [
+                    "first bullet point",
+                    "second bullet point",
+                    "ect"
+                ],[
+                    "second list fits point",
+                    "list 2, point 2",
+                    "ect"
+                ]
+            ],
+            "suggests" : "some pages have suggested further readings"
+        },{
+            "title" : "",
+            "credit" : "",
+            "intro" : "",
+            "list_headers" : [
+                ""
+            ],
+            "lists" : [
+                [
+                    "",
+                    ""
+                ]
+            ],
+            "suggests" : ""
+        }
+    ]
+}
