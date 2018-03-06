@@ -14,11 +14,7 @@
     <access origin="*" />
     <script src="cordova.js" type="text/javascript" />
     <script src="cordova_plugins.js" type="text/javascript" />
-    <splash src="Images/splash.png" />
-    <preference name="SplashScreenDelay" value="3000" />
-    <preference name="SplashShowOnlyFirstTime" value="false" />
-    <preference name="SplashScreen" value="Images/splash.png" />
-    <preference name="ShowSplashScreen" value="true" />
-    <preference name="SplashScreenWidth" value="1080" />
-    <preference name="SplashScreenHeight" value="1920" />
+    <preference name="SplashScreen" value="none" />
+    <preference name="SplashScreenDelay" value="0" />
+    <preference name="FadeSplashScreenDuration" value="0" />
 </widget>
