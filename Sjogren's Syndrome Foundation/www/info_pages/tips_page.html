@@ -49,7 +49,7 @@
     
         var i = 0;
         while (data[0]['files'][num]['list_headers'][i]!=null){
-            document.getElementById("stuff").innerHTML += ("<h2>" + data[0]['files'][num]['list_headers'][i] + "</h2><ul id=\tablefont\">");
+            document.getElementById("stuff").innerHTML += ("<p><b>" + data[0]['files'][num]['list_headers'][i] + "</b><p><ul id=\tablefont\">");
             var j = 0;
             while(data[0]['files'][num]['lists'][i][j]!=null){
                 document.getElementById("stuff").innerHTML += ("<li>" + data[0]['files'][num]['lists'][i][j] + "</li>");
