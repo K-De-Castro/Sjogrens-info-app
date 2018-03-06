@@ -5,6 +5,9 @@
 <link rel="stylesheet" type="text/css" href= "CSS/Information.css">
 <link rel="stylesheet" type="text/css" href= "CSS/W3.css">
 <script src="js/jquery.js"></script>
+<script src="js/xeno.js"></script>
+<script src="cordova.js"></script>
+<script src="cordova-plugin.js"></script>
 </head>
 
 <body>
@@ -44,12 +47,19 @@
     <p style = "text-align: center; font-family: sans-serif; font-size: 18px">Looking for a Physician in your area? <br><br>Enter your Zip Code below:<br></p>
     
     <div class = "button-container">
-    <form>
-        <input type="text" id="zipcode"><br><br>
-        <input type="submit" id = "find-doc" class="w3-button w3-blue w3-round-large" value="Submit">
+    <form id='form1'>
+        <input type="number" id="zipcode"><br><br>
     </form>
+    <button class="w3-button w3-blue w3-round-large" onclick="google()">Search</button>
         </div>
-    
+    <script>
+        function google(){
+        var x = document.getElementById('form1');
+        var zip = x.elements[0].value;
+        var url = "http://google.com/search?q=" + "Sjogren's Rheumatologist near " + zip;
+        window.open(url, '_system', null);
+        }
+    </script>
     <br>
     
     <div class = "button-container">
