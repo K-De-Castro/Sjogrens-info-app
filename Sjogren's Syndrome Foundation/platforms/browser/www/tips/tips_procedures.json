@@ -1,7 +1,7 @@
 {
     "files" : [
         {
-            "title" : "page's title",
+            "title" : "Page's title",
             "credit" : "thing saying 'ssf thanks ___ for help writing this.",
             "intro" : "paragraph before bullet list",
             "list_headers" : [
@@ -22,20 +22,6 @@
                 ]
             ],
             "suggests" : "some pages have suggested further readings"
-        },{
-            "title" : "",
-            "credit" : "",
-            "intro" : "",
-            "list_headers" : [
-                ""
-            ],
-            "lists" : [
-                [
-                    "",
-                    ""
-                ]
-            ],
-            "suggests" : ""
         }
     ]
 }

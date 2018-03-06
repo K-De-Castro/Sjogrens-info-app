@@ -1,41 +1,68 @@
 {
     "files" : [
         {
-            "title" : "page's title",
-            "credit" : "thing saying 'ssf thanks ___ for help writing this.",
-            "intro" : "paragraph before bullet list",
-            "list_headers" : [
-                "the title of the bullet list",
-                "put title of second list here",
-                "third list title",
-                "ect."
-            ],
-            "lists" : [
-                [
-                    "first bullet point",
-                    "second bullet point",
-                    "ect"
-                ],[
-                    "second list fits point",
-                    "list 2, point 2",
-                    "ect"
-                ]
-            ],
-            "suggests" : "some pages have suggested further readings"
-        },{
-            "title" : "",
+            "title" : "Health Insurance Tips – 1",
             "credit" : "",
-            "intro" : "",
+            "intro" : "Obtaining healthcare reimbursement can be a major challenge. Having Sjögren’s places a high enough burden on patients, and adding the barriers patients face in obtaining health insurance reimbursement increases that burden greatly. This tip sheet should help you increase your chances of success when requesting reimbursement and appealing denials for a claim.",
             "list_headers" : [
-                ""
+                "Know your insurance policy and what it covers.",
+                "Make sure your medical records are accurate.",
+                "Include a Letter of Medical Necessity.",
+                "Know how your insurance company handles biologics if you are considering one.",
+                "Always appeal denials!",
+                "If you are still denied following the final round of appeals, contact the advocacy or patient assistance program for the company that produces the therapy. Most companies have"
             ],
             "lists" : [
                 [
-                    "",
-                    ""
+                    "Note whether prior authorization is needed for a specific therapy or procedure.",
+                    "Understand co-pays and how much you will be expected to contribute to the cost.",
+                    "Know whether your insurance company requires “step therapy,” which means you must try and fail one therapy before the next level of therapy can be covered."
+                ],[
+                    "Maintain copies of your medical records. You have the right to receive copies of all of your medical records. Note that you can be charged a copy fee."
+                ],[
+                    "A Letter of Medical Necessity is usually written by the physician explaining why a therapy or other treatment is medically necessary. This can be included with an initial claim or included in the appeals process.",
+                    "A Sample Letter of Medical Necessity for dental treatment can be found on the SSF website under “Brochures and Resource Sheets.”"
+                ],[
+                    "Insurance companies can exclude a drug from coverage or it might be a “tiered” drug, meaning one that is designated at a certain level for how much the patient must cover."
+                ],[
+                    "Appeal a denial at every level. Most patients receive at least partial reimbursement upon appealing a negative decision from their insurance company.",
+                    "Involve your doctor in helping you respond to a denial.",
+                    "Familiarize yourself with your insurance company’s guidelines and deadlines for appeal. This information is usually included in the denial letter.",
+                    "Make sure you have the necessary documentation showing that your case meets the insurance provider’s guidelines and demonstrates medical need.",
+                    "Maintain records of your communication with the insurance company and document every time you speak or hear from a company representative. Record the person’s name, date, time and key messages from the conversation.",
+                    "Understand why you were denied, so you can address the reason(s) directly.",
+                    "If you are communicating with the Customer Service office of the insurance company and are dissatisfied with the response, ask for a Nurse Case Manager or a Supervisor who might be more understanding of your situation.",
+                    "When possible, demonstrate that treatment is more cost-effective than alternatives or non-treatment."
+                ],[
+                    "If not covered, or if the patient coverage is too high, divisions that take applications for financial assistance for request an exemption along with an explanation their therapies. about why you need the drug from your physician."
                 ]
             ],
-            "suggests" : ""
+            "suggests" : "For more information on Sjögren’s, contact the Sjögren’s Syndrome Foundation at: 6707 Democracy Blvd, Suite 325, Bethesda, MD 20817 • 800-475-6473 • www.sjogrens.org • ssf@sjogrens.org. Clinicians: Please make multiple copies of this Patient Education Sheet and distribute to your patients."
+        },{
+            "title" : "Health Insurance Tips – 2",
+            "credit" : "",
+            "intro" : "How to Draft an Insurance Appeal Letter The Patient Education Sheet, Health Insurance Tips – Part 1, contains tips on obtaining healthcare reimbursement. Part 2 addresses how to appeal a decision if you are denied coverage. Always appeal a denial! Be persistent and do not give up when first denied.",
+            "list_headers" : [
+                "Information and documentation that will help you appeal a denial",
+                "Letter of Medical Necessity",
+                "Quotes from your health insurance policy that are helpful to your case"
+            ],
+            "lists" : [
+                [
+                    "Your policy and claim numbers, employer name if your policy is through an employer, and the full name of the insured",
+                    "The therapy or procedure for which you were denied and why the denial letter stated you were denied",
+                    "Medical records that back up your diagnosis and medical problem that relates to the therapy in question",
+                    "A cost-benefit analysis when relevant - For example, you can compare the cost savings of obtaining punctal plugs or cauterization compared to the higher cost of having to pay for more moisture drops and ointment over a long period of time."
+                ],[
+                    "This letter is usually written by the physician explaining why a therapy or other treatment is medically necessary.",
+                    "If the Letter of Medical Necessity is not signed by your physician, have your physician provide a letter of support for your appeal and reason for recommending or prescribing your therapy.",
+                    "A Sample Letter of Medical Necessity for dental treatment can be found on the SSF website under “Brochures and Resource Sheets.”"
+                ],[
+                    "For example, if your policy states that coverage is provided for a closely-related disease and/or similar symptom, quote that back to the insurance company. If the company cites a reason for covering the related disease or symptoms, such as an inflammatory response, use that. Quoting such statements and providing documentation about similar occurrences in Sjögren’s increases your chance for the success of an appeal.",
+                    "Cite two or more articles from respected medical journals backing your claim of medical necessity."
+                ]
+            ],
+            "suggests" : "Refer to the SSF website as an authoritative source of medical information on Sjögren’s. For more information on Sjögren’s, contact the Sjögren’s Syndrome Foundation at: 6707 Democracy Blvd, Suite 325, Bethesda, MD 20817 • 800-475-6473 • www.sjogrens.org • ssf@sjogrens.org. Clinicians: Please make multiple copies of this Patient Education Sheet and distribute to your patients."
         }
     ]
 }
