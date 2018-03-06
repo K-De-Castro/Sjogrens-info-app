@@ -23,6 +23,6 @@ document.getElementById('google_it').onclick = function google(){
 //preforms a google search for doctors near value of element 'zipcode'.
 document.getElementById('find_doc').onclick = function(){
     var zip = document.getElementById('zipcode').value;
-    var url = "http://google.com/search?q=" + "sjogren's Rheumatologist near " + zip;
+    var url = "http://google.com/search?q=" + "Sj&ouml;gren's Rheumatologist near " + zip;
     xenolink(url);
 }
