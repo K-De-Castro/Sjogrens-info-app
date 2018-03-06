@@ -202,8 +202,7 @@ html, body{
     margin-bottom: auto;
 }
 
-#backbutton img{
-    width: 80%;
+#backbutton img {
     height: 100%;
     margin: auto 2%;
     float:left;
