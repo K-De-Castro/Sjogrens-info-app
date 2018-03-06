@@ -115,7 +115,7 @@
                     "We do not know what causes BMS, nor do we have a cure.",
                     "Medications used to treat neurologic disorders (anxiety, depression) can alleviate the burning.",
                     "Stress management reduction techniques such as meditation, yoga, exercise, and/or psychotherapy may be helpful.",
-                    "There is NO association with BMS and oral cancer.",
+                    "There is NO association with BMS and oral cancer."
                 ]
             ],
             "suggests" : ""
@@ -125,20 +125,20 @@
             "intro" : "Dry skin often is overlooked as a major feature of Sjögren’s syndrome but deserves greater recognition asa frequent issue for patients. Dry skin can occur as the result of immune dysfunction and destruction of thestructures which moisturize and lubricate the skin – a process similar to that which causes dry mouth and dryeye in Sjögren’s. These skin structures include the hair and oil glands as well as sweat glands. Once destroyed,these oil and sweat glands cannot be restored. Although most common in fall, winter and early spring, dry skinoccurs throughout the year. Areas most often affected are legs, arms and abdomen (especially the beltline/waist).",
             "list_headers" : [
                 "Major features of dry skin are:",
-                "Tips for dealing with dry skin:",
+                "Tips for dealing with dry skin:"
             ],
             "lists" : [
                 [
                     "Scaling",
                     "Redness",
                     "Itching",
-                    "Cracking of the skin",
+                    "Cracking of the skin"
                 ], [
                     "Take short, warm baths or showers. They do not remove skin oils as completely as hot water.",
                     "Use gentle bars (Dove®, Basis®, Cetaphil® or the low/no residue glycerin bars such as Neutrogena®) instead of harsh true “soaps.” Detergents are not the same as soap and are not necessarily bad; in fact, most bath bars are detergents and not soaps. Often, detergents are able to control the acid/base balance of the skin better than true soaps.",
                     "After bathing, pat dry and use one or more of the moisturizing techniques mentioned in the next item.",
                     "Apply moisture frequently. In reality, there are relatively few ways of maintaining or adding to your skin’s moisture content. These are: Trap moisture in the skin immediately after bathing or showering while your skin is still damp or moist by applying a thin layer of petroleum jelly (Vaseline®), bath oil or even some cooking oils such as safflower oil, Canola® oil and Crisco®).",
-                    '"Drag" moisture into your skin by using products that contain chemicals such as urea, glycerin, lactic or similar “metabolic” or alpha-hydroxy acids (AmLactin® Cream, Carmol®).',
+                    "Drag moisture into your skin by using products that contain chemicals such as urea, glycerin, lactic or similar “metabolic” or alpha-hydroxy acids (AmLactin® Cream, Carmol®).",
                     "Repair the skin’s protective function by retaining or trapping the skin’s natural moisture with a relatively new group of products based on naturally occurring chemicals called ceramides (CeraVe®).",
                     "Avoid fabric softeners in the washer and dryer.",
                     "Drink plenty of water and remain well-hydrated.",
@@ -150,6 +150,71 @@
         },{
             "title" : "Simple Solutions for Dry Nose and Sinuses",
             "credit" : "The SSF thanks Robert Lebovics, MD, FACS, for authoring this Patient Education Sheet. Dr. Lebovics is with the Head and Neck Surgical Group, which is af liated with the St. Lukes-Roosevelt Hospital Center, New York, New York. He is former Chief of the Clinical Otolaryngology Service at the National Institutes of Health (NIH), Bethesda, Maryland, and continues as a surgical consultant to NIH.",
+            "intro" : "",
+            "list_headers" : [
+                ""
+            ],
+            "lists" : [
+                [
+                    "",
+                    ""
+                ]
+            ],
+            "suggests" : ""
+        },{
+            "title" : "Simple Solutions for Dry Eye",
+            "credit" : "The SSF thanks J. Daniel Nelson, MD, Associate Medical Director, Specialty Care HealthPartners Medical Group & Clinics, and Professor of Ophthalmology, University of Minnesota, Minneapolis, Minnesota, for authoring this Patient Education Sheet.",
+            "intro" : "One of the main goals in treating dry eye is to make you more comfortable!",
+            "list_headers" : [
+                "Unless specifically ordered by your doctor, stop treatments that make you feel worse."
+            ],
+            "lists" : [
+                [
+                    "Apply a warm, wet compress to the closed eyes using a washcloth heated in tolerably warm water from the sink or shower. Apply at bedtime and upon awakening for 5 minutes or more often if desired.",
+                    "Carefully clean the eyelids with warm water or one of the commercially available eyelid cleansers or baby shampoo (avoid any that are irritating), and keep the upper and lower eyelids free of facial creams at bedtime. Anything applied to the eyelids will get into the tear film and can irritate the eye.",
+                    "Use non-preserved artificial tears frequently and regularly, even when your eyes feel good. Don’t wait until your eyes are uncomfortable.",
+                    "When starting a new, preservative-free artificial tear, use the drops every 1-2 hours for at least two weeks before reducing frequency of use. When you taper their use, see if your symptoms worsen. It often is easier to determine feeling worse than better.",
+                    "Most artificial tears vary in two important ways - preservatives and thickness or viscosity. If you use artificial tears more than four times a day, use non-preserved preparations. If your vision is blurred with artificial tear use, try a less viscous preparation.",
+                    "Try ointments or gels at bedtime by first applying them only to the eyelids and lashes. If that is not helpful, place ~1/4 inch of ointment between the lower lid and eyeball. Because it blurs their vision, some individuals may not like using it.",
+                    "Sleep is important for maintaining eye comfort. If you are not sleeping well, see your primary physician for help.",
+                    "Wear wrap-around glasses or goggles when outside to provide protection from the environment and to create more humidity around the eyes.",
+                    "If you are bothered by light, wear sunglasses or try lenses with a FL-41 filter.",
+                    "Humidify your environment in cold weather. Use a bedside humidifier at night, and add a humidifier to your furnace.",
+                    "Pollutants and allergens are more concentrated in the tear film of dry eye patients. In hot weather, sleep with the windows shut and keep cool with air conditioning.",
+                    "Dry eye patients often develop or aggravate allergies. An over-the-counter allergy drop (even if preserved) used twice daily may help.",
+                    "Cold compresses help itchy eyes due to allergies. Warm compresses work best for dry eye symptoms of burning and sand-gravel sensations.",
+                    "Anticipate times of the day, week or month when your symptoms are worse, and use artificial tears and warm compresses as a preventive measure. Symptoms may vary with changes in the weather, changes in locale (at work versus at home), and, in women, with the menstrual cycle."
+                    
+                ]
+            ],
+            "suggests" : "For more information on Sjögren’s syndrome, visit the SSF Web site at www.sjogrens.org, call 800-475-6473, e-mail ssf@sjogrens.org or write to the Sjögren’s Syndrome Foundation, 6707 Democracy Blvd, Suite 325, Bethesda, MD 20817. Clinicians: Please make multiple copies of this Patient Education Sheet and distribute to your patients. If you have an idea for a topic or want to author a Patient Education Sheet, contact us at sq@sjogrens.org."
+        },{
+            "title" : "Pediatric Sjögren’s",
+            "credit" : "Pediatric Rheumatology, The Children’s Hospital of Philadelphia, Assistant Professor of Pediatrics, Perelman School of Medicine, The University of Pennsylvania, Pennsylvania. Pediatric Rheumatology, University of Iowa Stead Family Children’s Hospital and Assistant Professor of Pediatrics, Carver College of Medicine, University of Iowa, Iowa.",
+            "intro" : "Sjögren’s is a systemic autoimmune disease that affects the entire body. Along with symptoms of extensive dryness, other serious complications include profound fatigue, chronic pain, major organ involvement, neuropathies and lymphomas. This disease in children often presents differently than it does in adults; the single most common presenting feature of childhood Sjögren’s is swelling of the parotid gland(s) (with or without tenderness). The parotid gland is the major salivary gland(s) located over the angle of the jaw on both sides.",
+            "list_headers" : [
+                "Sjögren’s may cause:",
+                "Sjögren’s should be considered in any child with:"
+            ],
+            "lists" : [
+                [
+                    "Dryness of eyes and mouth",
+                    "Joint pain (especially in the morning) or joint inflammation may occur and may be the initial manifestation",
+                    "Autoimmune attack on any type of blood cells mayoccur resulting in decreases in platelets, red or white blood cells",
+                    "Effects on kidneys may result in low potassium that may progress to paralysis. This is a medical emergency",
+                    "Inflammation of the optic nerve (the nerve that connects the eyes to the brain) and the spinal cord may manifest as blindness and paralysis. This condition, called neuromyelitis optica, is a medical emergency"
+                ],[
+                    "Oral or ocular manifestations suggesting decreased saliva and/or tear production",
+                    "Swelling of parotid glands (persistent or recurrent)",
+                    "Inflammation of kidneys, lungs, brain or spinal cord",
+                    "Autoimmune manifestations affecting the blood",
+                    "Symptoms including prolonged or recurrent fevers, enlarged lymph nodes, or a purple or reddish rash due to inflamed blood vessels or cold-induced color changes (white, blue, and/or red) of fingers or toes"
+                ]
+            ],
+            "suggests" : ""
+        },{
+            "title" : "",
+            "credit" : "",
             "intro" : "",
             "list_headers" : [
                 ""
