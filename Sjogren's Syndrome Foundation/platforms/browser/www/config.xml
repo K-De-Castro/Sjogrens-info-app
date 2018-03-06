@@ -12,11 +12,13 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
-    <splash src="splash.png" />
-    <preference name="SplashScreen" value="splash.png" />
+    <script src="cordova.js" type="text/javascript" />
+    <script src="cordova_plugins.js" type="text/javascript" />
+    <splash src="Images/splash.png" />
     <preference name="SplashScreenDelay" value="3000" />
-    <preference name="ShowSplashScreen" value="false" />
-    <preference name="SplashScreenWidth" value="600" />
-    <preference name="SplashScreenHeight" value="300" />
-    <preference name="SplashShowOnlyFirstTime" value="true" />
+    <preference name="SplashShowOnlyFirstTime" value="false" />
+    <preference name="SplashScreen" value="Images/splash.png" />
+    <preference name="ShowSplashScreen" value="true" />
+    <preference name="SplashScreenWidth" value="1080" />
+    <preference name="SplashScreenHeight" value="1920" />
 </widget>

@@ -9,20 +9,61 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="cordova_plugins.js"></script>
+
     <plugin name="cordova-plugin-print-pdf" source="npm" />
-    
+
     <plugin name="cordova-plugin-splashscreen" source="npm"/>
 
-    <splash src="splash.png"/>
+    <preference name="SplashScreenDelay" value="10000" />
+    <preference name="SplashShowOnlyFirstTime" value="false" />
+    <preference name="SplashScreen" value="Images/splash.png" /> 
+    <preference name="SplashScreenDelay" value="3000" /> 
+    <preference name="ShowSplashScreen" value="true" /> 
+    <preference name="SplashScreenWidth" value="1080" /> 
+    <preference name="SplashScreenHeight" value="1920" /> 
+    
 
-    <platform name="browser">
-    <preference name="SplashScreen" value="splash.png" /> <!-- defaults to "/img/logo.png" -->
-    <preference name="SplashScreenDelay" value="3000" /> <!-- defaults to "3000" -->
-    <preference name="ShowSplashScreen" value="false" /> <!-- defaults to "true" -->
-    <preference name="SplashScreenWidth" value="600" /> <!-- defaults to "170" -->
-    <preference name="SplashScreenHeight" value="300" /> <!-- defaults to "200" -->
-    <preference name="SplashShowOnlyFirstTime" value="true" />
+    <splash src="Images/splash.png" />
+    <!-- <icon height="1920" platform="windows" src="www/Images/backarrow.png" width="1152" /> -->
 
+    <!-- <platform name="android">
+        <splash src="splash.png" density="land-ldpi"/>
+        <splash src="splash.png" density="land-mdpi"/>
+        <splash src="splash.png" density="land-hdpi"/>
+        <splash src="splash.png" density="land-xhdpi"/>
+        <splash src="splash.png" density="port-hdpi"/>
+        <splash src="splash.png" density="port-ldpi"/>
+        <splash src="splash.png" density="port-mdpi"/>
+        <splash src="splash.png" density="port-xhdpi"/>
+    </platform> -->
+    <platform name="browser"> -->
+        <preference name="SplashScreen" value="Images/splash.png" /> 
+        <preference name="SplashScreenDelay" value="3000" /> 
+        <preference name="ShowSplashScreen" value="true" /> 
+        <preference name="SplashScreenWidth" value="1080" /> 
+        <preference name="SplashScreenHeight" value="1920" /> 
+    =</platform>
+<platform name="android">
+  <icon src="icons/icon.png"/>
+
+  <!-- you can use any density that exists in the Android project -->
+  <splash src="icons/android-splash-land-hdpi.png" density="land-hdpi"/>
+  <splash src="icons/android-splash-land-ldpi.png" density="land-ldpi"/>
+  <splash src="icons/android-splash-land-mdpi.png" density="land-mdpi"/>
+  <splash src="icons/android-splash-land-xhdpi.png" density="land-xhdpi"/>
+
+  <splash src="icons/android-splash-port-hdpi.png" density="port-hdpi"/>
+  <splash src="icons/android-splash-port-ldpi.png" density="port-ldpi"/>
+  <splash src="icons/android-splash-port-mdpi.png" density="port-mdpi"/>
+  <splash src="icons/android-splash-port-xhdpi.png" density="port-xhdpi"/>
+</platform>
+
+    <platform name="windows">
+    <splash src="Images/backarrow.png" target="SplashScreen"/>
+    <splash src="Images/backarrow.png" target="SplashScreenPhone"/>
 </platform>
 
 </widget>

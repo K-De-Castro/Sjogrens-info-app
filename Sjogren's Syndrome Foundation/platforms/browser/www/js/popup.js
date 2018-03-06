@@ -1,3 +1,16 @@
+function preload(){
+    var gloss = loadJSON("../glossery.json")
+}
+
+$(document).ready(function(){
+    
+    $(".colour").click(function(){
+        $("body").children().each(function() {           
+            $(this).html($(this).html().replace("color","colour"));
+        });
+    })
+})
+
 $( function()
 {
     var targets = $( '[rel~=tooltip]' ),
