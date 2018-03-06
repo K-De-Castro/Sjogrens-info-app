@@ -22,33 +22,63 @@
 <div class="textcontainer">
     <div class="btn-group" id="list">
         <script>
-            function preload(){
-                var file = GetURLParameter('page');
-                var pages = sessionStorage.getItem('file');
-                if (pages == null){
-                    pages = loadJSON("../tips/tips_"+file+".json");
-                    sessionStorage.setItem(file, pages);
+        
+        var getUrlParameter = function getUrlParameter(sParam) {
+            var sPageURL = decodeURIComponent(window.location.search.substring(1)),
+                sURLVariables = sPageURL.split('&'),
+                sParameterName,
+                i;
+
+            for (i = 0; i < sURLVariables.length; i++) {
+                sParameterName = sURLVariables[i].split('=');
+
+                if (sParameterName[0] === sParam) {
+                    return sParameterName[1] === undefined ? true : sParameterName[1];
                 }
             }
-            $(document).ready(function(){
-                $("button").click(function(){
-                    for (p in pages.files){
-                        if (p.title == this.id){
-                            sessionStorage.setItem('toload', p);
-                            break;
-                        }
-                    }
-                    
+        };
+        
+        $(document).ready(function(){
+            var file = getUrlParameter('page');
+            console.log(file);
+            var pages = sessionStorage.getItem('file');
+            if (pages == null){
+                $.when(
+                    $.getJSON(("../tips/tips_"+file+".json")),
+                    $.ready
+                ).done(function( data ) {
+                    console.log(data[0]['files'][0]['title']);
+                    sessionStorage.setItem(file, data[0]['files']);
+                    pages = data[0]['files'];
                 });
-            });
-            var list = "<a style = \"text-decoration: none\" href=\"tips_page.html\"> <button class=\"w3-button w3-blue w3-round-large\" ";
-            for (x in pages.files){
-                document.getElementById('list').innerHTML += (list + "id=\""+x.title+"\" >" + x.title + "</button></a>");
             }
-        </script>
+            var line = "<a style = \"text-decoration: none\" href=\"tips_page.html\"> <button class=\"w3-button w3-blue w3-round-large\" ";
+            console.log(line);
+            for (x in pages){
+                console.log(x);
+            }
+            try{
+                var i = 0;
+                while (pages    [i]['title']){
+                    var temp = (line + "id=\"" + page[i]['title'] + "\" >" + pages[i]['title'] + "</button></a>");
+                    console.log(temp);
+                    document.getElementById('list').innerHTML += (line + "id=\"" + pages[i]['title'] + "\" >" + pages[i]['title'] + "</button></a>");
+                    i++;
+                }
+            } catch (error){
+            }
+        });
+        $("button").click(function(){
+                for (p in pages.files){
+                    if (p.title == this.id){
+                        sessionStorage.setItem('toload', p);
+                        break;
+                    }
+                }
+            });
+            
+    </script>
     </div>
 </div>
-
 </body>
-
 </html>
