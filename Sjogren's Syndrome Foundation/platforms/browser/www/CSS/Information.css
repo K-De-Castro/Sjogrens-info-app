@@ -13,7 +13,7 @@ html, body{
     align-content: center;
     margin-top: 12%;
     margin-bottom: 12%;
-    padding: 10px 24px; /* Some padding */
+    padding: 10px 10px; /* Some padding */
     width: 100%;/* Set a width if needed */
     display: block; /* Make the buttons appear below each other */
     /*border-radius: 15%;*/
@@ -46,8 +46,12 @@ html, body{
 
 .info-title{
     height: 10%;
-    margin-top: 2%;
+    margin-top: 12%;
     text-align: center;
+}
+
+.info-title h1{
+    font-size: 250%;
 }
 
 
