@@ -45,16 +45,11 @@ html, body{
 }
 
 .info-title{
-    height: 20%;
-    margin-top: 7%;
-    /* border: black;
-    border-style: solid; */
+    height: 10%;
+    margin-top: 2%;
+    text-align: center;
 }
 
-.info-title h1{
-    text-align: center;
-    font-size: 250%;
-}
 
 .infomenu{
     height: 100%;
