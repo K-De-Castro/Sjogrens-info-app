@@ -90,6 +90,77 @@
                 ]
             ],
             "suggests" : "Suggested reading: The Memory Bible, by Gary Small, MD, Director of the UCLA Center on Aging, available from the Sjögren’s Syndrome Foundation."
+        },{
+            "title" : "Burning Mouth",
+            "credit" : "The SSF thanks Vidya Sankar, DMD, MHS, Associate Professor, University of Texas Health Science Center at San Antonio Dental School, for authoring this Patient Education Sheet.",
+            "intro" : "Get an accurate diagnosis!",
+            "list_headers" : [
+                "There are several things that can cause burning in the oral cavity, including:",
+                "Tips, if the cause of the burning falls into any of the categories listed above:",
+                "If none of those conditions are the cause of the burning, you may have true Burning Mouth Syndrome (BMS) which is thought to be a form of neuropathic pain.",
+            ],
+            "lists" : [
+                ["Fungal infections",
+                    "Sores in the mouth due to autoimmune dysfunction (aphthous ulcers, geographic tongue, lichen planus, etc.)",
+                    "Nutritional deficiencies",
+                    "Uncontrolled diseases (thyroid, diabetes, etc.)",
+                    "Ill-fitting dental appliances or broken restorations",
+                    "Dry mouth",
+                ],["Treat the underlying condition – for example, salivary stimulants in dry mouth patients.",
+                   "Steer clear of highly spiced foods, as these can irritate the mucosal lining of the mouth.",
+                   "Avoid carbonated beverages, alcohol, and natural citrus juices, as these may aggravate the burning.",
+                    "Avoid citrus foods such as oranges, lemons, grapefruits, kiwis, pineapples and strawberries. Acidic foods may aggravate the burning.",
+                   "Avoid eating hard, dry foods or take small sips of water to help break them down, as they may aggravate existing sores or ulcers.",
+                ], ["This is a chronic condition.",
+                    "We do not know what causes BMS, nor do we have a cure.",
+                    "Medications used to treat neurologic disorders (anxiety, depression) can alleviate the burning.",
+                    "Stress management reduction techniques such as meditation, yoga, exercise, and/or psychotherapy may be helpful.",
+                    "There is NO association with BMS and oral cancer.",
+                ]
+            ],
+            "suggests" : ""
+        },{
+            "title" : "Dry Skin",
+            "credit" : "The SSF thanks John R. Fenyk, Jr., MD, Professor of Dermatology and Adjunct Assistant Professor of Family Practice and Community Health, University of Minnesota, and clinical dermatologist, University of Minnesota Lupus and Sjögren’s Clinic, for authoring this Patient Education Sheet.",
+            "intro" : "Dry skin often is overlooked as a major feature of Sjögren’s syndrome but deserves greater recognition asa frequent issue for patients. Dry skin can occur as the result of immune dysfunction and destruction of thestructures which moisturize and lubricate the skin – a process similar to that which causes dry mouth and dryeye in Sjögren’s. These skin structures include the hair and oil glands as well as sweat glands. Once destroyed,these oil and sweat glands cannot be restored. Although most common in fall, winter and early spring, dry skinoccurs throughout the year. Areas most often affected are legs, arms and abdomen (especially the beltline/waist).",
+            "list_headers" : [
+                "Major features of dry skin are:",
+                "Tips for dealing with dry skin:",
+            ],
+            "lists" : [
+                [
+                    "Scaling",
+                    "Redness",
+                    "Itching",
+                    "Cracking of the skin",
+                ], [
+                    "Take short, warm baths or showers. They do not remove skin oils as completely as hot water.",
+                    "Use gentle bars (Dove®, Basis®, Cetaphil® or the low/no residue glycerin bars such as Neutrogena®) instead of harsh true “soaps.” Detergents are not the same as soap and are not necessarily bad; in fact, most bath bars are detergents and not soaps. Often, detergents are able to control the acid/base balance of the skin better than true soaps.",
+                    "After bathing, pat dry and use one or more of the moisturizing techniques mentioned in the next item.",
+                    "Apply moisture frequently. In reality, there are relatively few ways of maintaining or adding to your skin’s moisture content. These are: Trap moisture in the skin immediately after bathing or showering while your skin is still damp or moist by applying a thin layer of petroleum jelly (Vaseline®), bath oil or even some cooking oils such as safflower oil, Canola® oil and Crisco®).",
+                    '"Drag" moisture into your skin by using products that contain chemicals such as urea, glycerin, lactic or similar “metabolic” or alpha-hydroxy acids (AmLactin® Cream, Carmol®).',
+                    "Repair the skin’s protective function by retaining or trapping the skin’s natural moisture with a relatively new group of products based on naturally occurring chemicals called ceramides (CeraVe®).",
+                    "Avoid fabric softeners in the washer and dryer.",
+                    "Drink plenty of water and remain well-hydrated.",
+                    "Use a humidifier, especially if you have forced-air heat which is especially drying.",
+                    "After swimming, make certain that you shower and then immediately use a moisturizer.",
+                ]
+            ],
+            "suggests" : "For more information on Sjögren’s syndrome, visit the SSF Web site at www.sjogrens.org, call 800-475-6473, e-mail ssf@sjogrens.org or write to the Sjögren’s Syndrome Foundation, 6707 Democracy Blvd, Suite 325, Bethesda, MD 20817. Clinicians: Please make multiple copies of this Patient Education Sheet and distribute to your patients. If you have an idea for a topic or want to author a Patient Education Sheet, contact us at sq@sjogrens.org."
+        },{
+            "title" : "Simple Solutions for Dry Nose and Sinuses",
+            "credit" : "The SSF thanks Robert Lebovics, MD, FACS, for authoring this Patient Education Sheet. Dr. Lebovics is with the Head and Neck Surgical Group, which is af liated with the St. Lukes-Roosevelt Hospital Center, New York, New York. He is former Chief of the Clinical Otolaryngology Service at the National Institutes of Health (NIH), Bethesda, Maryland, and continues as a surgical consultant to NIH.",
+            "intro" : "",
+            "list_headers" : [
+                ""
+            ],
+            "lists" : [
+                [
+                    "",
+                    ""
+                ]
+            ],
+            "suggests" : ""
         }
     ]
 }
