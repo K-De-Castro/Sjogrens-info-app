@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.phonegap.ssf_info" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+    <feature name="Device">
+        <param name="browser-package" value="Device" />
+    </feature>
+    <name>Sjogren's Syndrome Foundation</name>
+    <description>
+        Information app about Sjogren's.
+    </description>
+    <author email="mmmcgill@knox.edu" href="https://www.sjogrens.org/">
+        PhoneGap Team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <script src="cordova.js" type="text/javascript" />
+    <script src="cordova_plugins.js" type="text/javascript" />
+    <splash src="Images/splash.png" />
+    <preference name="SplashScreenDelay" value="3000" />
+    <preference name="SplashShowOnlyFirstTime" value="false" />
+    <preference name="SplashScreen" value="Images/splash.png" />
+    <preference name="ShowSplashScreen" value="true" />
+    <preference name="SplashScreenWidth" value="1080" />
+    <preference name="SplashScreenHeight" value="1920" />
+</widget>
