@@ -41,31 +41,13 @@
         <splash src="splash.png" density="port-mdpi"/>
         <splash src="splash.png" density="port-xhdpi"/>
     </platform>
-    <platform name="browser"> -->
+    
+    <platform name="browser"> 
         <preference name="SplashScreen" value="Images/splash.png" /> 
         <preference name="SplashScreenDelay" value="3000" /> 
         <preference name="ShowSplashScreen" value="true" /> 
         <preference name="SplashScreenWidth" value="1080" /> 
         <preference name="SplashScreenHeight" value="1920" /> 
-    =</platform>
-<platform name="android">
-  <icon src="icons/icon.png"/>
-
-  <!-- you can use any density that exists in the Android project -->
-  <splash src="icons/android-splash-land-hdpi.png" density="land-hdpi"/>
-  <splash src="icons/android-splash-land-ldpi.png" density="land-ldpi"/>
-  <splash src="icons/android-splash-land-mdpi.png" density="land-mdpi"/>
-  <splash src="icons/android-splash-land-xhdpi.png" density="land-xhdpi"/>
-
-  <splash src="icons/android-splash-port-hdpi.png" density="port-hdpi"/>
-  <splash src="icons/android-splash-port-ldpi.png" density="port-ldpi"/>
-  <splash src="icons/android-splash-port-mdpi.png" density="port-mdpi"/>
-  <splash src="icons/android-splash-port-xhdpi.png" density="port-xhdpi"/>
-</platform>
-
-    <platform name="windows">
-    <splash src="Images/backarrow.png" target="SplashScreen"/>
-    <splash src="Images/backarrow.png" target="SplashScreenPhone"/>
-</platform>
+    </platform>
 
 </widget>
