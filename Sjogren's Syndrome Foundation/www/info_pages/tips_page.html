@@ -14,38 +14,65 @@
 
 <body>
     <script>
+        var getUrlParameter = function getUrlParameter(sParam) {
+                    var sPageURL = decodeURIComponent(window.location.search.substring(1)),
+                        sURLVariables = sPageURL.split('&'),
+                        sParameterName,
+                        i;
+        
+                    for (i = 0; i < sURLVariables.length; i++) {
+                        sParameterName = sURLVariables[i].split('=');
+        
+                        if (sParameterName[0] === sParam) {
+                            return sParameterName[1] === undefined ? true : sParameterName[1];
+                        }
+                    }
+                };
+
     $(function(){
-        var page = sessionStorage.getItem('toload');
-        var spot = document.getElementById('stuff').innerHTML;
-        spot += ("<h1 class = \"toptext\">" + page.title + "</h1><br></br>");
-        spot += ("<p class= \"abouttext\">" + page.intro + "</p><br></br>");
+        var page = getUrlParameter('page');
+        var file = sessionStorage.getItem('section');
+        $.when(
+            $.getJSON(("../tips/tips_"+file+".json")),
+            $.ready
+        ).done(function( data ) {
+
+        var num = 0;
+        while (data[0]['files'][num]['title']!=page){
+            num++;
+        }
+        //console.log(num);
+        //var spot = document.getElementById("stuff").innerHTML;
+        document.getElementById("stuff").innerHTML += ("<h1 class = \"toptext\">" + page + "</h1><br></br>");
+        document.getElementById("stuff").innerHTML += ("<p class= \"abouttext\">" + data[0]['files'][num]['intro'] + "</p><br></br>");
         var i = 0;
-        while (page.list_headers[i]){
-            spot += ("<p>" + page.list_headers[i] + "</p><ul id=\tablefont\">");
+        while (data[0]['files'][num]['list_headers'][i]!=null){
+            document.getElementById("stuff").innerHTML += ("<p>" + data[0]['files'][num]['list_headers'][i] + "</p><ul id=\tablefont\">");
             var j = 0;
-            while(page.lists[i][j]){
-                spot += ("<li>" + page.lists[i][j] + "</li>");
+            while(data[0]['files'][num]['lists'][i][j]!=null){
+                document.getElementById("stuff").innerHTML += ("<li>" + data[0]['files'][num]['lists'][i][j] + "</li>");
                 j++;
             }
             i++;
         }
-        spot += "<br></br>";
-        if (page.suggests){
-            spot += ("<p>" + page.suggests + "</p><br></br>");
+        document.getElementById("stuff").innerHTML += "<br></br>";
+        if (data[0]['files'][num]['suggests']){
+            document.getElementById("stuff").innerHTML += ("<p>" + data[0]['files'][num]['suggests'] + "</p><br></br>");
         }
-        spot += ("<p>" + page.credit + "</p>")
+        document.getElementById("stuff").innerHTML += ("<p>" + data[0]['files'][num]['credit'] + "</p>")})
+        $("h1").show();
     })
     </script>
     <div class="w3-top">
-        <div class="w3-bar w3-top w3-left-align w3-large info_navbar">
-            <a href="../info.html" class="w3-bar-item w3-button w3-left" id = "backbutton"><img src = "../Images/backarrow.png"></a>
+            <div class="w3-bar w3-top w3-left-align w3-large info_navbar">
+                <a href="../tips_submenu.html" class="w3-bar-item w3-button w3-left" id = "backbutton"><img src = "../Images/backarrow.png"></a>
+                <a href="../index.html" class="w3-bar-item w3-button w3-right" id = "homebutton"><img src = "../Images/home.png"></a>
+            </div>
         </div>
-    </div>
     <div class = "spacer">
     </div>
 <div class="textcontainer" id="stuff">
-        <div class = "spacer"></div>
-        
 </div>
+<div class = "spacer"></div>
 </body>
 </html>
