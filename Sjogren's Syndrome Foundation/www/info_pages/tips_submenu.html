@@ -30,9 +30,20 @@
                     sessionStorage.setItem(file, pages);
                 }
             }
-            var list = "<a style = \"text-decoration: none\" href=\"tips_page.html\"> <button class=\"w3-button w3-blue w3-round-large\" >";
+            $(document).ready(function(){
+                $("button").click(function(){
+                    for (p in pages.files){
+                        if (p.title == this.id){
+                            sessionStorage.setItem('toload', p);
+                            break;
+                        }
+                    }
+                    
+                });
+            });
+            var list = "<a style = \"text-decoration: none\" href=\"tips_page.html\"> <button class=\"w3-button w3-blue w3-round-large\" ";
             for (x in pages.files){
-                document.getElementById('list').innerHTML += (list + x.title + "</button></a>");
+                document.getElementById('list').innerHTML += (list + "id=\""+x.title+"\" >" + x.title + "</button></a>");
             }
         </script>
     </div>

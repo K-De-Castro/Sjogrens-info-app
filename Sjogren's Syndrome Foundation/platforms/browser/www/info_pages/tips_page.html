@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <link rel="stylesheet" type="text/css" href="../CSS/Information.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/W3.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/index.css">
+    <script src="../js/java.js"></script>
+    <script src="../js/jquery.js"></script>
+</head>
+
+<body>
+    <script>
+    $(function(){
+        var page = sessionStorage.getItem('toload');
+        var spot = document.getElementById('stuff').innerHTML;
+        spot += ("<h1 class = \"toptext\">" + page.title + "</h1><br></br>");
+        spot += ("<p class= \"abouttext\">" + page.intro + "</p><br></br>");
+        var i = 0;
+        while (page.list_headers[i]){
+            spot += ("<p>" + page.list_headers[i] + "</p><ul id=\tablefont\">");
+            var j = 0;
+            while(page.lists[i][j]){
+                spot += ("<li>" + page.lists[i][j] + "</li>");
+                j++;
+            }
+            i++;
+        }
+        spot += "<br></br>";
+        if (page.suggests){
+            spot += ("<p>" + page.suggests + "</p><br></br>");
+        }
+        spot += ("<p>" + page.credit + "</p>")
+    })
+    </script>
+    <div class="w3-top">
+        <div class="w3-bar w3-top w3-left-align w3-large info_navbar">
+            <a href="../info.html" class="w3-bar-item w3-button w3-left" id = "backbutton"><img src = "../Images/backarrow.png"></a>
+        </div>
+    </div>
+    <div class = "spacer">
+    </div>
+<div class="textcontainer" id="stuff">
+        <div class = "spacer"></div>
+        
+</div>
+</body>
+</html>
