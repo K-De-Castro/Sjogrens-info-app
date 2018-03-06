@@ -1,0 +1,95 @@
+{
+    "files" : [
+        {
+            "title" : "page's title",
+            "credit" : "thing saying 'ssf thanks ___ for help writing this.",
+            "intro" : "paragraph before bullet list",
+            "list_headers" : [
+                "the title of the bullet list",
+                "put title of second list here",
+                "third list title",
+                "ect."
+            ],
+            "lists" : [
+                [
+                    "first bullet point",
+                    "second bullet point",
+                    "ect"
+                ],[
+                    "second list fits point",
+                    "list 2, point 2",
+                    "ect"
+                ]
+            ],
+            "suggests" : "some pages have suggested further readings"
+        },{
+            "title" : "",
+            "credit" : "",
+            "intro" : "",
+            "list_headers" : [
+                ""
+            ],
+            "lists" : [
+                [
+                    "",
+                    ""
+                ]
+            ],
+            "suggests" : ""
+        },{
+            "title" : "Brain Fog",
+            "credit" : "The SSF thanks Elaine Alexander, MD, PhD, clinician and researcher in Sjögren’s syndrome, biomedical consultant and Chair-Elect of the SSF Medical and Scientific Advisory Board, San Diego, California, for authoring this Patient Education Sheet.",
+            "intro" : "What is Brain Fog? Brain Fog is a lay term to describe fluctuating mild memory loss that is inappropriate for a person’s age. It may include forgetfulness, spaciness, confusion, decreased ability to pay attention, an inability to focus, and difficulty in processing information. Remember that gradual cognitive decline from early adulthood is a fact of life. Brain Fog can occur in Sjögren’s syndrome (SS), but other factors might cause these symptoms and should be considered by you and your doctor.",
+            "list_headers" : [
+                "What YOU can do about Brain Fog:",
+                "Additional actions:"
+            ],
+            "lists" : [
+                [
+                "Always report changes in cognition/memory and mood (depression, anxiety).",
+                "Make sure your physician knows about all the prescription and OTC medications you are taking. Especially in patients over 65-70 years of age, a major cause of cognitive dysfunction can be side effects of drugs and drug interactions.",
+                "Inquire about your hormonal status, thyroid function, and blood pressure."
+                ],[
+                "Rejuvenate with sufficient sleep. If after 8-9 hours of sleep you are still tired, tell your doctor.",
+                "Minimize stress and anxiety:",
+                "Set realistic expectations",
+                "Plan ahead",
+                "Take breaks throughout the day",
+                "Learn relaxation exercises and practice them at regular intervals",
+                "Balance work and leisure",
+                "Let yourself laugh",
+                "Talk about feelings",
+                "Limit multi-tasking and focus on one task at a time",
+                "Reduce caffeine and alcohol.",
+                "Manage effectively musculoskeletal and joint pain.",
+                "Exercise regularly. Adequate physical exercise enhances cognition/memory.",
+                "Train the Brain! “If you don’t use it, you will lose it.”",
+                "Boost your brain power: Continue to work into retirement (part time), learn new skills, volunteer, engage in social and mentally stimulating activities and establish new friendships and relationships.",
+                "Take your body to the gym and don’t forget to visit the “BRAIN SPA” – both will improve brain function.",
+                "Recent scientific data show that longevity is associated with the successful management of chronic diseases, such as Sjögren’s syndrome, not the absence of any disease!"
+                ]
+            ],
+            "suggests" : "Suggested reading: The Memory Bible, by Gary Small, MD, Director of the UCLA Center on Aging, available from the Sjögren’s Syndrome Foundation."
+        },{
+            "title" : "Tips for Brittle Nails",
+            "credit" : "The SSF thanks Adam I. Rubin, MD for authoring this Patient Education Sheet. Dr. Rubin is Director of the Nail Practice and Assistant Professor of Dermatology, Perleman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania.",
+            "intro" : "Brittle nails are characterized by hardness, peeling, crumbling, fissures, excess longitudinal ridges or lack of flexibility of the finger and toe nails. This sometimes causes pain and interferes with normal daily activities. Although no clear association between Sjogren's and nail disorders has been reported, Sjögren's patients frequently complain of this problem. Many different dermatologic conditions including some autoimmune disorders, infections, dryness and certain medications can affect the nails.",
+            "list_headers" : [
+                "Here’s what you can do to help:"],
+            "lists" : [
+                ["Keep the nails short. This prevents the nails from catching on things or acting as a lever and causing further damage.",
+                "Avoid biting the nails, pulling on them or other tasks that cause repeated trauma.",
+                "Avoid excess contact with water or chemicals (including nail polish remover) which can cause dryness.",
+                "Protect the nails when performing wet work by using rubber gloves and cotton glove liners.",
+                "Avoid excess hand washing and exposure of nails to water.",
+                "Use moisturizer on your nails multiple times per day and reapply the moisturizer after your hands come in contact with water. You can use the same moisturizer used for your dry skin.",
+                "Steer clear of cosmetic products such as artificial nails and nail wraps which can cause damage.",
+                "Avoid nail polish and hardeners. However, if used, leave on as long as possible to help retain moisture. After removing polish, moisturize the nails and give them a break from cosmetic products before re-application.",
+                "If your dermatologist approves, try a course of biotin if you have brittle nails.",
+                "If you're diagnosed with a fungal infection of your nails, your dermatologist can discuss a variety of treatment options which are available."
+                ]
+            ],
+            "suggests" : "Suggested reading: The Memory Bible, by Gary Small, MD, Director of the UCLA Center on Aging, available from the Sjögren’s Syndrome Foundation."
+        }
+    ]
+}

@@ -38,6 +38,7 @@ html, body{
 .button-container {
     width: 100%;
     height: 10%;
+    padding-top: 2%;
     margin: auto auto;
     text-align: center;
     
@@ -53,8 +54,6 @@ html, body{
 .textbottom {
     width:100%;
     height: 10%;
-    padding-top: 5%;
-    margin-top: 5%;
     margin-left:auto;
     margin-right: auto;
     font-size: 12px;
@@ -65,6 +64,14 @@ html, body{
     height:27%;
     padding-top: 15%;
     margin-bottom: 20%;
+    position:relative;
+}
+
+.logohalftwo {
+    width: 100%;
+    height:27%;
+    padding-top: 15%;
+    margin-bottom: 5%;
     position:relative;
 }
 
@@ -128,6 +135,12 @@ html, body{
     width: 100%;
 }
 
+.logohalftwo img {
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    width: 100%;
+}
 
 
 .toptext {
