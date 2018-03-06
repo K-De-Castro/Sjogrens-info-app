@@ -24,12 +24,14 @@
     <preference name="ShowSplashScreen" value="true" /> 
     <preference name="SplashScreenWidth" value="1080" /> 
     <preference name="SplashScreenHeight" value="1920" /> 
+    <preference name="SplashScreen" value="splash" />
     
 
     <splash src="Images/splash.png" />
     <!-- <icon height="1920" platform="windows" src="www/Images/backarrow.png" width="1152" /> -->
 
-    <!-- <platform name="android">
+    <platform name="android">
+        <preference name="SplashScreen" value="splash" />
         <splash src="splash.png" density="land-ldpi"/>
         <splash src="splash.png" density="land-mdpi"/>
         <splash src="splash.png" density="land-hdpi"/>
@@ -38,7 +40,7 @@
         <splash src="splash.png" density="port-ldpi"/>
         <splash src="splash.png" density="port-mdpi"/>
         <splash src="splash.png" density="port-xhdpi"/>
-    </platform> -->
+    </platform>
     <platform name="browser"> -->
         <preference name="SplashScreen" value="Images/splash.png" /> 
         <preference name="SplashScreenDelay" value="3000" /> 
