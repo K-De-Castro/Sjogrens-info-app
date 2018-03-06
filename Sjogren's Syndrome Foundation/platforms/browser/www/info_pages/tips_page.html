@@ -49,7 +49,7 @@
     
         var i = 0;
         while (data[0]['files'][num]['list_headers'][i]!=null){
-            document.getElementById("stuff").innerHTML += ("<h2>" + data[0]['files'][num]['list_headers'][i] + "</h2><ul id=\tablefont\">");
+            document.getElementById("stuff").innerHTML += ("<p><b>" + data[0]['files'][num]['list_headers'][i] + "</b><p><ul id=\tablefont\">");
             var j = 0;
             while(data[0]['files'][num]['lists'][i][j]!=null){
                 document.getElementById("stuff").innerHTML += ("<li>" + data[0]['files'][num]['lists'][i][j] + "</li>");
@@ -65,14 +65,14 @@
         $("h1").show();
     })
 
-    function back(){
-        var backurl = "tips_submenu.html?page="+file;
-        window.location=backurl;
-    }
+    //function back(){
+        //var backurl = "tips_submenu.html?page="+file;
+        //window.location=backurl;
+    //}
     </script>
     <div class="w3-top">
             <div class="w3-bar w3-top w3-left-align w3-large info_navbar">
-                <a href="#" onclick="back()" class="w3-bar-item w3-button w3-left" id = "backbutton"><img src = "../Images/backarrow.png"></a>
+                <a href="#" onclick="go_back()" class="w3-bar-item w3-button w3-left" id = "backbutton"><img src = "../Images/backarrow.png"></a>
                 <a href="../index.html" class="w3-bar-item w3-button w3-right" id = "homebutton"><img src = "../Images/home.png"></a>
             </div>
         </div>
