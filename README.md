@@ -1,16 +1,14 @@
-# information-1
+# A Blank PhoneGap App
 
-Gordon was here!!!!
+## Usage
 
-Really? I heard that guy is awesome.
+### PhoneGap CLI
 
-I know.  That guy is totally awesome.
+    $ phonegap create my-app --template blank
 
+### Desktop
 
-Kevin: Gordon is awesome.
+In your browser, open the file:
 
-Yo, i'm making my edit to the README
+    /www/index.html
 
-"Ayyyyyyyyyyyyyyyyyyyyyyyyyyyy
-I agree gordon is awesome!
-Ich brauche eine Kaffe." - AP
