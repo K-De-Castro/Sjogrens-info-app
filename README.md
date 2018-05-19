@@ -1,14 +1,6 @@
-# A Blank PhoneGap App
+# Sjogrens Information App
 
 ## Usage
+The PhoneGap software was used to make this application for easy development for both Android and IPhone platforms
 
-### PhoneGap CLI
-
-    $ phonegap create my-app --template blank
-
-### Desktop
-
-In your browser, open the file:
-
-    /www/index.html
-
+To use the application the PhoneGap software and mobile application is needed.
